@@ -164,3 +164,14 @@ body {
 	padding: 6px 24px;
 	background-color: transparent;
 }
+
+.footer {
+	padding: 28px 17%;
+	background-color: #1f2937;
+	color: #e5e7eb;
+	text-align: center;
+}
+
+.footer p {
+	margin: 0;
+}
