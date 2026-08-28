@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 16px 17%;
+	background-color: #1f2937;
+}
+
+.logo {
+	color: #f9faf8;
+	font-size: 24px;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.navbar ul {
+	display: flex;
+	gap: 24px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.navbar a:not(.logo) {
+	color: #e5e7eb;
+	font-size: 18px;
+	text-decoration: none;
+}
