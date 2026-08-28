@@ -116,3 +116,24 @@ body {
 	border: 4px solid #3882f6;
 	border-radius: 12px;
 }
+
+.more-info {
+	padding: 72px 17%;
+	background-color: #e5e7eb;
+	color: #374151;
+}
+
+.more-info p {
+	max-width: 780px;
+	margin: 0 auto 16px;
+	font-size: 28px;
+	font-style: italic;
+	line-height: 1.25;
+}
+
+.more-info strong {
+	display: block;
+	max-width: 780px;
+	margin: 0 auto;
+	text-align: right;
+}
