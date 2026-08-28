@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="navbar">
-    <p>header logo here</p>
+    <a class="logo" href="#">Header Logo</a>
 
     <nav>
       <ul>
-        <li><a href="#">link one here</a></li>
-        <li><a href="#">link two here</a></li>
-        <li><a href="#">link three here</a></li>
+        <li><a href="#information">header link one</a></li>
+        <li><a href="#quote">header link two</a></li>
+        <li><a href="#signup">header link three</a></li>
       </ul>
     </nav>
   </header>
@@ -22,36 +22,37 @@
   <main>
     <section class="overview">
       <div class="overview-copy">
-        <p>Overview of the landing page content goes here</p>
-        <p>More details about the landing page content can be added here</p>
-        <button type="button">click me</button>
+        <h1>This website is awesome</h1>
+        <p>This website has some subtext that goes here under the main title. It’s a smaller font and the color is lower contrast.</p>
+        <a class="button" href="#signup">Sign up</a>
       </div>
 
-      <p class="placeholder-image">a placeholder image here, side by side</p>
+      <div class="placeholder-image">this is a placeholder for an image</div>
     </section>
 
-    <section class="extra-info">
-      <p>some random text here</p>
+    <section class="extra-info" id="information">
+      <h2>Some random information.</h2>
       <ul>
-        <li>some content under an image or illustration</li>
-        <li>some more content under an image or illustration</li>
-        <li>some final content under an image or illustration</li>
-        <li>some final content under an image or illustration</li>
+        <li><span class="info-image"></span><span>this is some subtext under an illustration or image</span></li>
+        <li><span class="info-image"></span><span>this is some subtext under an illustration or image</span></li>
+        <li><span class="info-image"></span><span>this is some subtext under an illustration or image</span></li>
+        <li><span class="info-image"></span><span>this is some subtext under an illustration or image</span></li>
       </ul>
     </section>
 
-    <section class="more-info">
-      <p>some random quotes by Thor, The God of Thunder</p>
+    <section class="more-info" id="quote">
+      <p>This is an inspiring quote, or a testimonial from a customer. Maybe it’s just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+      <strong>-Thor, God of Thunder</strong>
     </section>
 
-    <section class="call-to-action">
-      <p>some random text here</p>
-      <button type="button">click me</button>
+    <section class="call-to-action" id="signup">
+      <div><strong>Call to action! It’s time!</strong><p>Sign up for our product by clicking that button right over there!</p></div>
+      <a class="button button-outline" href="#">Sign up</a>
     </section>
   </main>
 
   <footer class="footer">
-    <p>footer content here, company name, etc.</p>
+    <p>Copyright © don_fibbonacci 2026</p>
   </footer>
 </body>
 </html>
