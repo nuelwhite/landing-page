@@ -79,3 +79,40 @@ body {
 	background-color: #6b7280;
 	color: #e5e7eb;
 }
+
+.extra-info {
+	padding: 48px 17% 80px;
+	text-align: center;
+}
+
+.extra-info h2 {
+	margin: 0 0 36px;
+	color: #1f2937;
+	font-size: 36px;
+}
+
+.extra-info ul {
+	display: flex;
+	justify-content: center;
+	gap: 32px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.extra-info li {
+	display: flex;
+	flex: 0 1 150px;
+	flex-direction: column;
+	align-items: center;
+	gap: 8px;
+	color: #4b5563;
+	font-size: 16px;
+}
+
+.info-image {
+	width: 150px;
+	height: 150px;
+	border: 4px solid #3882f6;
+	border-radius: 12px;
+}
